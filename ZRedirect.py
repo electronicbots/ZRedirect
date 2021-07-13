@@ -1,6 +1,5 @@
 import requests, os, sys, argparse, optparse
 
-#multiprocessing
 print("""\033[2;31m
   _____  ____          _ _               _   
  |__  / |  _ \ ___  __| (_)_ __ ___  ___| |_ 
